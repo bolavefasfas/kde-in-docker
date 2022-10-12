@@ -17,7 +17,7 @@ ENTRYPOINT ["/init"]
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && \
     apt upgrade -y && \
-    apt install -y plasma-desktop
+    apt install -y ubuntukylin-desktop
 RUN apt install -y dbus-x11
 
 
